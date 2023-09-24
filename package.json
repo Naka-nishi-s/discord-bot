@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Naka-nishi-s/discord-bot#readme",
   "dependencies": {
-    "discord.js": "^14.13.0"
+    "discord.js": "^14.13.0",
+    "sqlite3": "^5.1.6"
   }
 }
