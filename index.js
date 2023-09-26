@@ -44,7 +44,7 @@ client.on(Events.MessageCreate, async (message) => {
   if (message.author.bot) return;
 
   // Bot以外の人が話したら反応する
-  if (message.content.includes("資格取得")) {
+  if (message.content.includes("資格/取得")) {
     // 誰かが入力中だったら無視
     if (isTyping) return;
 
