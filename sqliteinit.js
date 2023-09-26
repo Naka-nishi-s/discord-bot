@@ -10,11 +10,6 @@ db.serialize(() => {
   db.run(
     "CREATE TABLE IF NOT EXISTS user (id INTEGER PRIMARY KEY, user_id TEXT) "
   );
-
-  // プレースホルダーを使用してINSERT処理
-  const stmt = db.prepare("INSERT INTO user VALUES (NULL, ?)");
-  stmt.run("16");
-  stmt.finalize();
 });
 
 db.close();

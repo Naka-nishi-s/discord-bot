@@ -21,6 +21,9 @@ let speakerID;
 // ギルドメンバー
 let guildMember;
 
+// 入力中フラグ
+let isTyping = false;
+
 // クライアントインスタンスと呼ばれるオブジェクトを作成します
 const client = new Client({
   intents: [
@@ -41,7 +44,13 @@ client.on(Events.MessageCreate, async (message) => {
   if (message.author.bot) return;
 
   // Bot以外の人が話したら反応する
-  if (message.content.includes("@資格")) {
+  if (message.content.includes("資格取得")) {
+    // 誰かが入力中だったら無視
+    if (isTyping) return;
+
+    // 入力中フラグをOn
+    isTyping = true;
+
     // 現在のギルドを取得
     const guild = message.guild;
 
@@ -131,6 +140,9 @@ client.on(Events.InteractionCreate, async (interaction) => {
 
     // リプライする
     interaction.reply(replyText);
+
+    // 入力中フラグをOff
+    isTyping = false;
   }
 });
 
