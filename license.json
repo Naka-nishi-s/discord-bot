@@ -1,38 +1,152 @@
 [
   {
     "id": 1,
-    "name": "ITパスポート",
-    "description": "エンジニアの登竜門。",
-    "points": 20
+    "name": "Rails4技術者認定-ブロンズ",
+    "description": "初級。Railsの基本知識を問う。",
+    "points": 3
   },
   {
     "id": 2,
-    "name": "基本情報技術者試験",
-    "description": "エンジニアの登竜門。",
-    "points": 30
+    "name": "Python3エンジニア認定基礎試験",
+    "description": "初級。Pythonの基本知識を問う。",
+    "points": 3
   },
   {
     "id": 3,
-    "name": "応用情報技術者試験",
-    "description": "基本情報の上位資格。激ムズ。",
-    "points": 80
+    "name": "PHP技術者認定試験-初級",
+    "description": "初級。PHPの基本知識を問う。",
+    "points": 3
   },
   {
     "id": 4,
-    "name": "ネットワークスペシャリスト",
-    "description": "ネットワークまわりの神。",
-    "points": 10
+    "name": "Python3エンジニア認定データ分析試験",
+    "description": "初級。Pythonを使用したデータ分析の基本知識を問う。",
+    "points": 5
   },
   {
     "id": 5,
     "name": "オラクルマスター ブロンズ",
-    "description": "ネットワークまわりの神。",
-    "points": 10
+    "description": "初級。Oracle製品の基本知識を問う",
+    "points": 5
   },
   {
     "id": 6,
+    "name": "Oracle認定 Javaプログラマ-ブロンズ",
+    "description": "初級。Javaの基本知識を問う。",
+    "points": 5
+  },
+  {
+    "id": 7,
+    "name": "LPIC-1",
+    "description": "初級。Linuxの基本知識を問う。",
+    "points": 5
+  },
+  {
+    "id": 8,
+    "name": "LinuC-1",
+    "description": "初級。仮想化技術を含めたLinuxの基本知識を問う。",
+    "points": 6
+  },
+  {
+    "id": 9,
+    "name": "Oracle認定 Javaプログラマ-シルバー",
+    "description": "初級。Javaの基本知識を問う。",
+    "points": 8
+  },
+  {
+    "id": 10,
+    "name": "AWS-クラウドプラクティショナー",
+    "description": "初級。AWSの各種サービスの基本知識を問う。",
+    "points": 8
+  },
+  {
+    "id": 11,
+    "name": "ITパスポート",
+    "description": "初級。IT業界への入門時にオススメ。",
+    "points": 10
+  },
+  {
+    "id": 12,
     "name": "オラクルマスター シルバー",
-    "description": "ネットワークまわりの神。",
+    "description": "中級。Oracle製品の基本-応用知識を問う。",
+    "points": 14
+  },
+  {
+    "id": 13,
+    "name": "情報セキュリティマネジメント",
+    "description": "中級。セキュリティに特化した基本情報のような立ち位置。",
+    "points": 14
+  },
+  {
+    "id": 14,
+    "name": "PHP技術者認定試験-上級",
+    "description": "中級。PHPの応用知識を問う。",
+    "points": 16
+  },
+  {
+    "id": 15,
+    "name": "CCNA",
+    "description": "中級。シスコ製品の基本知識を問う",
+    "points": 16
+  },
+  {
+    "id": 16,
+    "name": "LPIC-2",
+    "description": "中級。Linuxの基本-応用知識を問う。",
+    "points": 16
+  },
+  {
+    "id": 17,
+    "name": "基本情報技術者試験",
+    "description": "中級。エンジニアの登竜門。",
+    "points": 16
+  },
+  {
+    "id": 18,
+    "name": "AWS-SAA,SOAなど",
+    "description": "上級。AWSの各種サービスの知識を問う。",
+    "points": 20
+  },
+  {
+    "id": 19,
+    "name": "応用情報技術者試験",
+    "description": "上級。基本情報の上位資格。激ムズ。",
+    "points": 40
+  },
+  {
+    "id": 20,
+    "name": "オラクルマスター ゴールド",
+    "description": "上級。Oracle製品の応用知識を問う。",
     "points": 25
+  },
+  {
+    "id": 21,
+    "name": "ITサービスマネージャ",
+    "description": "超級。ハード・ソフト双方の知識を要する資格。",
+    "points": 60
+  },
+  {
+    "id": 22,
+    "name": "ITストラテジスト",
+    "description": "超級。CIOやCTO、ITコンサルタント向け。",
+    "points": 60
+  },
+  {
+    "id": 23,
+    "name": "ネットワークスペシャリスト",
+    "description": "超級。ネットワークまわりの神。",
+    "points": 60
+  },
+  {
+    "id": 24,
+    "name": "プロジェクトマネージャ",
+    "description": "超級。プロマネ志望向け。",
+    "points": 60
+  },
+  {
+    "id": 25,
+    "name": "システムアーキテクト",
+    "description": "超級。アーキテクト担当向け。",
+    "points": 60
   }
 ]
